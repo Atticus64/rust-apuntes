@@ -15,7 +15,7 @@ fn resta(a: u8, b: u8) -> u8 {
 
     // return num1 + num2;
     // o usar la palabra return si se quiere poner el ;
-    num1 + num2 // la convencion es retornar así
+    num1 - num2 // la convencion es retornar así
 }
 
 fn variables_declaration() {
