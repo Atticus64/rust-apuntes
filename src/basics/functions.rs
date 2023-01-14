@@ -21,7 +21,7 @@ fn resta(a: u8, b: u8) -> u8 {
 fn variables_declaration() {
     let y = {
         // asignando valor como una funcion o statement
-        let x = 3;
+        let x = 4;
         x + 1
     };
 
