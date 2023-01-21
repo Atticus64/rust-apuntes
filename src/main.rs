@@ -1,18 +1,15 @@
-mod basics {
-    // pub mod args_println;
-    // pub mod functions;
-    // pub mod hola;
-    // pub mod macro_rust;
-    pub mod ownership;
-    pub mod borrowing;
-    // pub mod tipos_datos;
-    // pub mod variables;
+mod structs {
+    // pub mod name_folder
+    pub mod user;
+    pub mod enums;
+    pub mod shapes;
 }
-// creando modulo 📂 para basics, extrallendo el archivo a ejecutar
-use basics::ownership::main as ownership;
-use basics::borrowing::main as borrowing;
+// creando modulo 📂 y extrallendo el archivo a ejecutar
+use structs::user::main as user;
+use structs::enums::main as enums;
 
 fn main() {
-    ownership();
-    borrowing();
+    // get login random number for auth
+    user();
+    enums();
 }
