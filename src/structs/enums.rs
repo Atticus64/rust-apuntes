@@ -8,12 +8,12 @@
 // -> Large version
 // #[derive(Debug)]
 // enum IpAddrKind {
-//     V4,
-//     V6
-// }
-
-// #[derive(Debug)]
-// struct IpAddr {
+  //     V4,
+  //     V6
+  // }
+  
+  // #[derive(Debug)]
+  // struct IpAddr {
     //     kind: IpAddrKind,
     //     address: String
     // }

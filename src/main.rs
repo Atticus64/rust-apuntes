@@ -1,15 +1,9 @@
-mod structs {
-    // pub mod name_folder
-    pub mod user;
-    pub mod enums;
-    pub mod shapes;
-}
-// creando modulo 📂 y extrallendo el archivo a ejecutar
-use structs::user::main as user;
-use structs::enums::main as enums;
+use crate::collect::hashmap::main as map;
+// use crate::collect::vector::main as vector;
+
+pub mod collect;
 
 fn main() {
-    // get login random number for auth
-    user();
-    enums();
+    // vector();
+    map();
 }

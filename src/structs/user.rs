@@ -1,4 +1,4 @@
-#[derive(Debug)]
+#[derive(Debug, Default)]
 struct User {
     name: String,
     age: u8,
@@ -32,6 +32,7 @@ impl User {
 
 pub fn main() {
     let mut user = User::build("Mario", 35);
+    let user2 = User::default();
     let name = user.get_name();
     let age = user.get_age();
     let black = ColorRbg(0, 0, 0);
@@ -40,4 +41,5 @@ pub fn main() {
     println!("color: {black:?}");
     user.change_name("Juan");
     println!("new user: {:?}", user);
+    println!("user2: {:?}", user2);
 }
