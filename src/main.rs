@@ -1,9 +1,9 @@
-use crate::collect::hashmap::main as map;
-// use crate::collect::vector::main as vector;
+use crate::error::panic::main as panic;
+use crate::error::result::main as result;
 
-pub mod collect;
+pub mod error;
 
 fn main() {
-    // vector();
-    map();
+    result();
+    panic();
 }
